@@ -1,0 +1,2 @@
+case_id,heat_load_W,flow_rate_L_min,channel_width_mm,channel_height_mm,channel_count,tim_conductivity_W_mK,tim_thickness_um,inlet_temperature_C,max_chip_temperature_C,average_chip_temperature_C,min_chip_temperature_C,outlet_temperature_C,pressure_drop_Pa,energy_balance_error_percent,mesh_level,solver_converged,notes
+baseline,100,0.20,0.50,0.50,10,3,100,25,,,,,,medium,True,
