@@ -128,3 +128,27 @@ The model will calculate:
 - How does channel width affect pressure drop?
 - How should the manifold geometry be designed?
 - How closely will COMSOL agree with the hand calculations?
+
+
+## Semiconductor Package Thermal Metrics
+
+Thermal metrics must be interpreted according to their test conditions and
+dominant heat-flow paths.
+
+- RθJA describes junction-to-ambient performance for a package, PCB, and
+  environment under defined test conditions. It is not a package-only constant.
+- RθJC describes the junction-to-case path when heat is intentionally forced
+  through the specified case surface, such as with an effective cold plate.
+- ΨJT is a characterization parameter used to estimate junction temperature
+  from a measured package-top temperature. It is not a true thermal resistance.
+- RθJB describes a controlled junction-to-board thermal path.
+- ΨJB estimates junction temperature from a measured board temperature under
+  application-like heat-flow partitioning.
+
+For the current cold-plate project, the primary metric will be the system
+chip-to-coolant-inlet thermal resistance:
+
+R_th,system = (T_max,chip - T_inlet) / Q
+
+This project-specific metric will always be reported together with heat load,
+coolant flow rate, inlet temperature, geometry, and boundary conditions.
