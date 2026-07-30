@@ -39,6 +39,21 @@ python -m src.train_models
 streamlit run app/streamlit_app.py
 ```
 
+## Current COMSOL results
+
+Preliminary Day 3 baseline and flow-sweep exports are available in:
+
+- [`comsol/exported_results/day03/`](comsol/exported_results/day03/)
+- [`figures/day03/`](figures/day03/)
+
+The results show the expected thermal-hydraulic tradeoff: increasing flow
+reduces maximum chip temperature and thermal resistance while increasing
+pressure drop and pumping power. The ten-channel outlet area is correct,
+but the integrated outlet flow remains lower than the requested flow-rate
+parameter. See the
+[Day 3 validation notes](comsol/exported_results/day03/README.md) before
+using these values for optimization.
+
 ## Roadmap
 
 1. Complete baseline calculations.
