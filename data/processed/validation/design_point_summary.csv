@@ -1,0 +1,4 @@
+mesh_level,flow_rate_L_min,max_chip_temperature_C,thermal_resistance_K_W,pressure_drop_Pa,pumping_power_W,outlet_temperature_C,outlet_flow_m3_s,inlet_flow_m3_s,flow_imbalance_pct,energy_balance_error_pct,energy_balance_passes,flow_imbalance_passes
+coarse,0.25,86.26914796,0.61269148,5150.916156,0.021462151,29.80617094,4.17e-06,4.17e-06,0.0,,,True
+normal,0.25,86.31655397,0.61316554,5146.486046,0.021443692,29.80439628,4.17e-06,4.17e-06,0.0,0.4619436095634875,True,True
+finer,0.25,86.22354117,0.612235412,5146.663207,0.02144443,29.77710237,4.17e-06,4.17e-06,0.0,,,True

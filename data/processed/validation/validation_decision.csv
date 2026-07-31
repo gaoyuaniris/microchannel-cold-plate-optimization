@@ -1,0 +1,2 @@
+design_flow_L_min,candidate_mesh,reference_mesh,convergence_passes,flow_imbalance_passes,energy_balance_passes,overall_status,recommended_mesh
+0.25,normal,finer,True,True,True,PASS,normal
