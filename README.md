@@ -54,6 +54,19 @@ parameter. See the
 [Day 3 validation notes](comsol/exported_results/day03/README.md) before
 using these values for optimization.
 
+## Surrogate validation
+
+The trained surrogate was checked against five independent, off-grid COMSOL
+cases within the sampled design ranges. All five outputs passed their defined
+acceptance criteria, and the model correctly classified all five cases against
+the 85 °C maximum-chip-temperature limit.
+
+Maximum chip-temperature error was 0.0994 °C, while pressure-drop and pumping-
+power MAPE were both 0.0466%. See the [validation report](report/validation/surrogate/README.md),
+[analysis workbook](report/validation/surrogate/coldplate_surrogate_validation_analysis.xlsx),
+and [comparison data](data/processed/validation/surrogate/coldplate_validation_comparison.csv)
+for the complete results.
+
 ## Roadmap
 
 1. Complete baseline calculations.

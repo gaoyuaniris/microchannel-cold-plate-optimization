@@ -47,3 +47,32 @@ repository with traceable validation status.
 **Next action:** Verify the COMSOL inlet velocity conversion and boundary
 selections, recompute all five flow cases, and confirm mass imbalance below
 1% and energy imbalance below 3%.
+
+## 2026-08-06 - Validate surrogate against off-grid COMSOL cases
+
+**Objective:** Compare surrogate predictions with five independent COMSOL
+cases and package the results for review.
+
+**Work completed:**
+
+- Added case-level and metric-summary CSV files.
+- Added an analysis workbook with a dashboard, source data, and charts.
+- Added seven comparison and engineering-interpretation plots.
+- Documented validation criteria, results, and scope.
+
+**Important decisions:**
+
+- Keep validation cases within the surrogate's sampled input ranges.
+- Use an 85 °C maximum-chip-temperature constraint for classification.
+- Report both absolute and percentage errors so small hydraulic errors remain
+  interpretable.
+
+**Problems or risks:**
+
+- The validation set contains only five cases, so it is a focused spot check.
+- The supplied exports do not contain the full thermal energy-balance terms.
+- The conclusions apply to interpolation, not extrapolation beyond training
+  bounds.
+
+**Next action:** Expand validation near the 85 °C boundary and include complete
+energy-balance exports in the next COMSOL validation batch.
