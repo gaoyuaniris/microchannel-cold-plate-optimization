@@ -68,6 +68,5 @@ Five separate off-grid cases tested new flow/TIM combinations inside the studied
 | [45-case dataset](data/processed/training/SOURCE.md) | Corrected flow/TIM grid, units, split labels and source notes |
 | [Study and validation](docs/STUDY_AND_VALIDATION.md) | Model scope, surrogate evaluation, historical mesh study and limitations |
 | [Reproduce the reported numbers](docs/portfolio/EVIDENCE_AND_REPRODUCIBILITY.md) | Runnable data checks and source-file manifest |
-| [Historical development](docs/history/README.md) | Day 1–3, earlier geometry, mesh/energy records and starter application |
 
-**Scope:** simulation and surrogate-comparison results. Final-geometry energy-balance and mesh-convergence evidence are incomplete in the published package; the exact final GPR checkpoint is not included. These limits are documented in [the technical study](docs/STUDY_AND_VALIDATION.md). Earlier 0.50 × 0.50 mm baseline results are retained as history and are not mixed with the final 0.30 × 0.70 mm study.
+**Scope:** simulation and surrogate-comparison results. Final-geometry energy-balance and mesh-convergence evidence are incomplete in the published package; the exact final GPR checkpoint is not included. These limits and the separate earlier-baseline numerical checks are documented in [the technical study](docs/STUDY_AND_VALIDATION.md).

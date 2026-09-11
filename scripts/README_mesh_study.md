@@ -1,9 +1,11 @@
-# COMSOL validation workflow
+# Earlier-baseline COMSOL validation workflow
 
 This workflow converts the raw COMSOL mesh-sweep and global energy-balance
 exports into clean, GitHub-ready tables, figures, and a validation report.
 
-The current study uses:
+This workflow checks the earlier 0.50 × 0.50 mm square-channel baseline. It does not establish mesh convergence or energy balance for the final 0.30 × 0.70 mm study; see [validation scope](../docs/STUDY_AND_VALIDATION.md).
+
+The baseline validation uses:
 
 - design flow: 0.25 L/min
 - heat load: approximately 100 W

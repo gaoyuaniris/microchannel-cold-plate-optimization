@@ -4,7 +4,7 @@
 
 | Evidence group | Supports | Does not establish |
 |---|---|---|
-| Existing `comsol/` and `docs/model_validation.md` records | Earlier baseline setup, flow-boundary correction, documented mesh/energy checks | Those checks applying automatically to the later 0.30 × 0.70 mm geometry |
+| Earlier-baseline mesh/energy exports and reports | Documented flow, mesh-refinement and energy-balance checks for the square-channel configuration | Those checks applying automatically to the later 0.30 × 0.70 mm geometry |
 | Corrected 45-case flow/TIM table | Complete parameter grid, split labels, temperature/pressure/power records | Complete final-geometry energy balance; exact final trained-model provenance |
 | Five off-grid prediction/COMSOL comparisons | Recalculation of reported prediction errors and all five temperature classifications | A newly reproduced GPR training run or general extrapolation accuracy |
 | Three COMSOL confirmation exports | Reported final Pareto candidates and hydraulic/thermal trade-offs | Experimental performance, a unique global optimum, full-system electrical pump power |
@@ -13,7 +13,7 @@ The current repository consolidation joins the existing surrogate-validation and
 
 ## Model and metric definitions
 
-The final result package describes ten 0.30 × 0.70 mm water channels, 100 W heat load and 25°C inlet. The sampled variables are total flow (0.10–0.30 L/min), TIM thickness (0.05–0.15 mm) and conductivity (1.5–6 W/(m·K)). The [historical README](../history/early_README.md) describes the earlier 0.50 × 0.50 mm baseline. See [study and validation](../STUDY_AND_VALIDATION.md) for the configuration and model-selection record.
+The final result package describes ten 0.30 × 0.70 mm water channels, 100 W heat load and 25°C inlet. The sampled variables are total flow (0.10–0.30 L/min), TIM thickness (0.05–0.15 mm) and conductivity (1.5–6 W/(m·K)). The retained mesh/energy reports concern an earlier 0.50 × 0.50 mm baseline. See [study and validation](../STUDY_AND_VALIDATION.md) for the configuration and model-selection record.
 
 System thermal resistance is `(Tmax_chip - Tin)/P_heat`. Hydraulic pumping power is `dp_Pa * flow_Lmin / 60000`, not electrical input. Temperature errors are emphasized in °C: percentage error referenced to Celsius temperature is scale-dependent. The supplied metric CSV retains its historical temperature MAPE but that value is not used as the main accuracy claim.
 
@@ -30,7 +30,7 @@ python3 -m unittest discover -s tests -p 'test_project1_portfolio.py' -v
 
 The checker recalculates the grid and split checks, data identities, five-case errors and pass/fail agreement, and final-design trade-off from the stored CSVs. It also verifies all 17 source-file hashes in the manifest. It does not execute a high-fidelity solver or regenerate predictions. The [saved check report](evidence_check_results.json) records the expected numerical results.
 
-The inherited `src/train_models.py` is an early linear/random-forest/gradient-boosting benchmark with a different feature schema, not the final GPR pipeline. The separately supplied historical training package contains a GPR candidate but also selects models using the nine-row development holdout. The final selected checkpoint, full Pareto cloud, runtime speedup, and deployed surrogate application are not reproduced here. The [historical material index](../history/README.md) identifies the earlier code and planning records.
+The inherited `src/train_models.py` is an early linear/random-forest/gradient-boosting benchmark with a different feature schema, not the final GPR pipeline. The separately supplied historical training package contains a GPR candidate but also selects models using the nine-row development holdout. The final selected checkpoint, full Pareto cloud, runtime speedup, and deployed surrogate application are not reproduced here.
 
 ## Unresolved evidence and release limits
 
@@ -40,4 +40,4 @@ The optimized TIM values (0.05 mm / 6 W/(m·K)) are recorded optimization metada
 
 For a reproducible prediction release, attach the final fitted GPR model or deterministic training pipeline, final training configuration, software versions and split/provenance record; then regenerate and compare predictions while preserving the independent checks. Until then, the portfolio demonstrates a documented simulation/surrogate design study with auditable result tables, not a one-command recreation of every original analysis.
 
-The [project overview](../../README.md) presents the supported engineering results. Historical records and incomplete reproduction steps remain available here so the numerical claims can be evaluated in their proper scope.
+The [project overview](../../README.md) presents the supported engineering results. The retained numerical verification records and reproduction limits allow these claims to be evaluated in their proper scope.
