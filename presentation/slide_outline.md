@@ -1,3 +1,7 @@
+> **Historical presentation outline.** This is a planning scaffold, not a completed or validated slide deck. Any future presentation should use the final 0.30 × 0.70 mm study and its evidence limits, keeping the earlier 0.50 × 0.50 mm baseline separate.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Seven-Slide Interview Deck
 
 1. Problem and job relevance

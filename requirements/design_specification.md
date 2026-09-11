@@ -1,3 +1,7 @@
+> **Historical project specification.** The dimensions, proposed heat-load range and acceptance targets below are early planning inputs for the 0.50 × 0.50 mm square-channel baseline. The final reported study is fixed at 100 W with 0.30 × 0.70 mm channels; do not interpret the broader proposed ranges as validated results.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Design Specification
 
 ## Problem

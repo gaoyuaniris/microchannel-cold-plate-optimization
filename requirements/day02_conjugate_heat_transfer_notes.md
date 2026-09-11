@@ -1,3 +1,7 @@
+> **Historical Day 2 model-development notes.** These notes document the earlier 0.50 × 0.50 mm square-channel baseline, including its development-stage dimensions and future plans. They do not specify the final 0.30 × 0.70 mm geometry. Any differences between early notes are preserved rather than silently reconciled.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Day 2 — Conjugate Heat Transfer Model Development
 
 ## Project Title

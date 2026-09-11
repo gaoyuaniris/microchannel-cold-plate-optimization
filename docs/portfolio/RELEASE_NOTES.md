@@ -1,6 +1,15 @@
 # Project 1 portfolio consolidation
 
-This review branch joins the existing final engineering results with the existing surrogate-validation records and adds a job-search navigation/review layer. It does not change the COMSOL results, model coefficients, training predictions, existing source implementation, or repository visibility.
+This portfolio release joins the existing final engineering results with the surrogate-validation records and corrected 45-case dataset. The homepage presents the cooling problem, selected design trade-off and supporting data. Original numerical results and source implementation are preserved.
+
+## Recruiter-facing cleanup — 2026-09-11
+
+- Replaced the preliminary homepage with the final 100 W flow/TIM study, three confirmed candidates, two result figures and direct dataset links.
+- Made the 63.5% hydraulic-power comparison explicit: balanced candidate versus minimum-temperature candidate, with a 4.11°C temperature increase.
+- Added a technical study record for the dataset, model-selection provenance, five off-grid checks and three confirmation runs.
+- Indexed and labeled Day 1–3, the earlier square-channel geometry, learning notes, preliminary mesh reports and starter application as historical material.
+- Preserved the earlier README in `docs/history/early_README.md`; `START_HERE.md` now points to the canonical homepage.
+- Kept all 17 manifest-listed source files unchanged, including original data, final-result figures and workbooks.
 
 ## Provenance
 
@@ -10,9 +19,11 @@ This review branch joins the existing final engineering results with the existin
 - All 13 files in `results/final_engineering_results/` are imported using their original Git objects; the existing source branch remains intact.
 - The corrected 45-case core CSV and original preparation notes are copied unchanged from the supplied training package. The original raw training export is not republished in this release.
 
-The root README retains the complete pre-existing body with a short portfolio navigation notice prepended. No historical baseline file is moved or relabeled as final-geometry evidence. Existing code, plots, validation tables and workbooks are preserved.
+The archived README preserves the original content with relative links rebased for its new location. Historical documents retain their original bodies beneath scope notices; their data and image paths are unchanged. The two earlier mesh narratives report different normal-mesh temperatures and energy residuals, so both are retained as unreconciled historical records rather than final-geometry validation.
 
 ## Checks actually performed
+
+For the homepage/history cleanup, the evidence checker again passed **308 checks**, the **eight standard-library portfolio tests** passed, and **115 local Markdown link targets** resolved. All 17 protected source hashes still matched. This documentation cleanup required no new simulations or model fitting.
 
 In an isolated working snapshot, the new standard-library review passed **308 evidence/data checks**: 17 source hashes, complete training grid/split, recorded thermal and hydraulic identities, independently recalculated five-case metrics/classification, and the confirmed trade-off arithmetic.
 
@@ -20,8 +31,6 @@ In an isolated working snapshot, the new standard-library review passed **308 ev
 
 New documentation links were checked against the combined repository paths. The source-hash manifest is [source_manifest.json](source_manifest.json); machine-readable recalculated results are [evidence_check_results.json](evidence_check_results.json). Original files are retained even where their source formatting or older terminology differs from the new portfolio notes.
 
-## Remaining items before wider release
+## Evidence limitations
 
-Review [evidence and reproducibility](EVIDENCE_AND_REPRODUCIBILITY.md), especially missing final-geometry energy-balance fields and final GPR checkpoint/pipeline provenance. The nine-row development holdout and five independent comparison records must not be conflated. The final package TIM values are metadata, and hydraulic pumping power is not electrical pump consumption.
-
-The repository is private. This change is proposed through a separate branch/pull request, without a main-branch merge, force-push, visibility change, license change, or editing of the user's local project folder. Public recruiter access requires a deliberate owner decision and review of the full repository/history, not just this added documentation.
+See [evidence and reproducibility](EVIDENCE_AND_REPRODUCIBILITY.md), especially missing final-geometry mesh/energy-balance evidence and final GPR checkpoint/pipeline provenance. The nine-row model-selection holdout and five off-grid comparison records serve different purposes. The final package TIM values are metadata, and hydraulic pumping power excludes electrical pump efficiency and external loop losses. The portfolio reports a simulation study; it does not claim measured hardware performance.

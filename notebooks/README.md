@@ -1,3 +1,7 @@
+> **Historical notebook scaffold.** The notebook names below are suggestions from the original project scaffold, not evidence that a final training or inference workflow is packaged here. Use the current study overview and evidence index for the completed results.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Notebooks
 
 Suggested notebooks:

@@ -1,3 +1,7 @@
+> **Historical project log.** Entries preserve the status and next actions recorded at the time; they are not a current to-do list. The preliminary Day 3 record concerns the 0.50 × 0.50 mm baseline, while the later final study uses 0.30 × 0.70 mm channels. Consult the current overview for the consolidated evidence.
+>
+> [Current study](README.md) · [History and provenance](docs/history/README.md)
+
 # Project Log
 
 ## Daily entry

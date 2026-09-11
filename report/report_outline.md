@@ -1,3 +1,7 @@
+> **Historical report outline.** This is a planning scaffold, not a completed technical report. The final 0.30 × 0.70 mm study is documented separately from the earlier 0.50 × 0.50 mm baseline; the outline does not establish that every listed analysis or experimental step was completed.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Technical Report Outline
 
 1. Executive summary

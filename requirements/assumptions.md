@@ -1,3 +1,7 @@
+> **Early modeling assumptions.** This initial checklist accompanies the earlier 0.50 × 0.50 mm square-channel baseline. It is retained as development context, not a complete verified specification of the final 0.30 × 0.70 mm study.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Modeling Assumptions
 
 ## Flow

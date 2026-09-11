@@ -1,3 +1,7 @@
+> **Historical preliminary results.** These July 29 exports describe the earlier 0.50 × 0.50 mm square-channel baseline and its unresolved requested-versus-integrated-flow discrepancy. Preserve them as diagnostic history; do not combine their plots or values with the final 0.30 × 0.70 mm study.
+>
+> [Current study](../../../README.md) · [History and provenance](../../../docs/history/README.md)
+
 # Day 3 COMSOL Results
 
 This directory contains the raw COMSOL 6.3 CSV exports supplied on

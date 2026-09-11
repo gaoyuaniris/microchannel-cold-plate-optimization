@@ -1,3 +1,7 @@
+> **Early setup notes.** This is an initial boundary-condition checklist for the earlier 0.50 × 0.50 mm square-channel baseline, not a record of every final COMSOL setting. The final study uses 0.30 × 0.70 mm channels.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Boundary Conditions
 
 ## Flow

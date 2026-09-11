@@ -1,3 +1,7 @@
+> **Historical learning notes.** This learning material contains early estimates and planned questions for the 0.50 × 0.50 mm square-channel baseline. Expected values are not final simulation results. The final study uses 0.30 × 0.70 mm channels.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Day 1 Learning Notes
 
 ## 1. Electronic Package Thermal Path

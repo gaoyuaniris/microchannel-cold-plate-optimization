@@ -1,3 +1,7 @@
+> **Early setup notes.** These notes belong to the earlier 0.50 × 0.50 mm square-channel baseline. They are retained as development context; the final study uses 0.30 × 0.70 mm channels.
+>
+> [Current study](../README.md) · [History and provenance](../docs/history/README.md)
+
 # Geometry Notes
 
 Layer stack:
