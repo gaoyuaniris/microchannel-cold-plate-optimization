@@ -1,4 +1,4 @@
-# Microchannel Cold-Plate Design for Electronics Cooling
+# Microchannel Cold Plate Thermal Modeling and Optimization
 
 **Yuan Gao · COMSOL 6.3 · Heat transfer and CFD · Python · Gaussian-process surrogate modeling**
 
