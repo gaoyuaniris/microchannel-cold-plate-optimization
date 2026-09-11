@@ -1,0 +1,51 @@
+{
+  "checks_passed": 308,
+  "grid_rows": 45,
+  "split_counts": {
+    "train_cv": 36,
+    "test_holdout": 9
+  },
+  "thermal_feasible_grid_rows": 19,
+  "missing_energy_balance_grid_rows": 45,
+  "comparison_cases": 5,
+  "validation_metrics_recalculated": {
+    "Maximum chip temperature": {
+      "MAE": 0.05066101008551129,
+      "RMSE": 0.05735867000064249,
+      "MAPE_percent": 0.05268083079518926,
+      "Max_absolute_error": 0.09942637975504454,
+      "R2": 0.9999939495831511
+    },
+    "System thermal resistance": {
+      "MAE": 0.0005066101008551315,
+      "RMSE": 0.0005735867000064314,
+      "MAPE_percent": 0.07355463154175494,
+      "Max_absolute_error": 0.0009942637975504098,
+      "R2": 0.9999939495831511
+    },
+    "Mass-weighted outlet temperature": {
+      "MAE": 0.1266422804701534,
+      "RMSE": 0.13128694835996063,
+      "MAPE_percent": 0.39502549113540836,
+      "Max_absolute_error": 0.15725144125072532,
+      "R2": 0.997317964539633
+    },
+    "Pressure drop": {
+      "MAE": 2.7943329425997945,
+      "RMSE": 3.367598837356136,
+      "MAPE_percent": 0.046623617352378396,
+      "Max_absolute_error": 5.011511254118886,
+      "R2": 0.9999980115153418
+    },
+    "Pumping power": {
+      "MAE": 9.740769499091625e-06,
+      "RMSE": 1.1933035408572476e-05,
+      "MAPE_percent": 0.0466236173523758,
+      "Max_absolute_error": 2.186766324725059e-05,
+      "R2": 0.99999937166757
+    }
+  },
+  "knee_hydraulic_power_reduction_percent": 63.53378222871247,
+  "knee_temperature_penalty_C": 4.1069606687350415,
+  "scope": "Evidence/data checks only; no new CFD, training, optimization, or hardware test."
+}

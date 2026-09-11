@@ -1,0 +1,92 @@
+{
+  "repository": "gaoyuaniris/microchannel-coldplate",
+  "base_commit": "66e887ef2ccdcbb1b1382e6a045cf4900925c533",
+  "final_results_source_commit": "e2019098164aa8b11c5b8ff5274a6ceedd4b6bfa",
+  "source_files": [
+    {
+      "path": "results/final_engineering_results/PACKAGE_MANIFEST.txt",
+      "git_blob_sha": "a9f41d371a8ad3fb11350deb8df9aa29839abdbc",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/README.md",
+      "git_blob_sha": "f53d3a1467a921c5a6ba700055941df28ddb21c5",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/data/engineering_tradeoff_summary.csv",
+      "git_blob_sha": "a8ab3de457cb7cf062214a250244f92feae59c93",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/data/final_selected_designs_comsol_confirmed.csv",
+      "git_blob_sha": "9149c088c75b804b878b04f5d1fa54a22bb3aa70",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/data/raw_comsol/validation_minimum temperature.csv",
+      "git_blob_sha": "8435c02495a402ad927585197da659b5e4da8290",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/data/raw_comsol/validation_parento_balanced knee point.csv",
+      "git_blob_sha": "53c7d9ef515a155b412e2a813171f41eea26cb5a",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/data/raw_comsol/validation_parento_minimum pumping power.csv",
+      "git_blob_sha": "673efed48fe61a225ed6ad524e013316f15ab3a5",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/figures/confirmed_Tmax_comparison.png",
+      "git_blob_sha": "799892010032fa674e98e0c6d63642369019b728",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/figures/confirmed_pressure_drop_comparison.png",
+      "git_blob_sha": "63678357a18371ba035ab047987b416d6534ef9d",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/figures/confirmed_pumping_power_comparison.png",
+      "git_blob_sha": "c6ab23d30fa6857fa8e7ecc03ecd119450fca354",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/figures/confirmed_system_Rth_comparison.png",
+      "git_blob_sha": "a7a50d6e3d3266e4c3b42a619dbadfc237428949",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/figures/confirmed_thermal_hydraulic_tradeoff.png",
+      "git_blob_sha": "96394b3e69838ad699a8b1b7334fc62758c59227",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "results/final_engineering_results/spreadsheet/coldplate_final_engineering_results.xlsx",
+      "git_blob_sha": "0a2c72659a7431e6178b2db4b226548fe816716e",
+      "origin": "existing final-results branch"
+    },
+    {
+      "path": "data/processed/validation/surrogate/coldplate_validation_comparison.csv",
+      "git_blob_sha": "ea25c00cd20f41dd324aac5c3bf5c75602b2c24e",
+      "origin": "existing surrogate-validation branch"
+    },
+    {
+      "path": "data/processed/validation/surrogate/coldplate_validation_metrics_summary.csv",
+      "git_blob_sha": "ff9346981cc9eb818e5ef75a2272fe03d174422f",
+      "origin": "existing surrogate-validation branch"
+    },
+    {
+      "path": "data/processed/training/coldplate_ml_core_45.csv",
+      "git_blob_sha": "1e9f0a51c759cd14fa9c3ae56f736a1c5429559b",
+      "origin": "supplied corrected training package"
+    },
+    {
+      "path": "data/processed/training/original_preparation_notes.txt",
+      "git_blob_sha": "040baa0656ccbfd4214080cf5897ee67ac30597b",
+      "origin": "supplied corrected training package"
+    }
+  ]
+}

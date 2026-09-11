@@ -1,3 +1,8 @@
+> **Job-search portfolio: [start with the completed study and confirmed results](START_HERE.md).**
+> The overview below is the preserved early-baseline README. The final flow/TIM study uses a later 0.30 × 0.70 mm channel configuration; its evidence, runnable result review, and limitations are linked from the portfolio overview.
+
+---
+
 # AI-Assisted Microchannel Cold-Plate Design Tool
 
 A GitHub-ready portfolio project combining COMSOL conjugate heat-transfer simulation, microchannel liquid cooling, Python data processing, machine-learning surrogate models, and multi-objective optimization.
