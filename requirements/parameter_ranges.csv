@@ -1,9 +1,0 @@
-parameter,symbol,minimum,baseline,maximum,unit
-Heat load,Q,50,100,200,W
-Total flow rate,Vdot,0.05,0.20,0.40,L/min
-Channel width,w,0.30,0.50,0.80,mm
-Channel height,h,0.30,0.50,0.80,mm
-Channel count,N,6,10,14,-
-TIM conductivity,k_TIM,1,3,8,W/(m*K)
-TIM thickness,t_TIM,50,100,200,um
-Inlet temperature,T_in,20,25,35,degC

@@ -1,3 +1,7 @@
+> **Historical square-channel validation report.** The PASS statement below applies only to this earlier baseline dataset. Its mesh temperatures and energy residuals differ from the separate [validation narrative](../../docs/model_validation.md); the two records have not been reconciled. Preserve both sources. These checks do not establish verification for the final 0.30 × 0.70 mm geometry, which differs from the earlier 0.50 × 0.50 mm baseline.
+>
+> [Project overview](../../README.md) · [Study and validation scope](../../docs/STUDY_AND_VALIDATION.md)
+
 # Mesh and energy validation
 
 ## Conclusion

@@ -1,0 +1,6 @@
+% Model,ten_channel_cooling_coldplate_parametric study_revise inlet condition_normal mesh validated_verified model _v1.mph
+% Version,COMSOL 6.3.0.290
+% Date,"Aug 7 2026, 12:45"
+% Table,flow sweep - 
+% Temperature (degC),x (mm),y (mm),z (mm),Temperature (degC),Velocity magnitude (m/s),system thermal resistance (K/W),Temperature (degC),Outlet Integration (m^2),Outlet Integration (m^3/s),flow-weighted outlet temperature (degC),mass weitghted (degC),area average inlet pressure (N/m^2),area average outlet pressure (N/m^2),pumping power (W),pressure drop (N/m^2),Qin (m^3/s)
+60.618149210646436,16.95802991648224,14.745412474638218,4.55,26.022496892945366,2.356954860759601,0.3561814921064644,60.618149210646436,2.1000000000000057E-6,5.0064952294947975E-6,29.764764568250826,29.760715466383658,10997.197128493794,56.042342276411716,0.0547057739310869,10941.154786217381,4.9999976146594884E-6

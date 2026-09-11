@@ -1,0 +1,22 @@
+Cold-Plate Final Engineering Results Package
+
+Primary entry point:
+- README.md
+
+Decision artifacts:
+- data/final_selected_designs_comsol_confirmed.csv
+- data/engineering_tradeoff_summary.csv
+- spreadsheet/coldplate_final_engineering_results.xlsx
+
+Key figure:
+- figures/confirmed_thermal_hydraulic_tradeoff.png
+
+Raw confirmation files:
+- data/raw_comsol/
+
+Recommended final design:
+- Balanced knee point
+
+Note:
+- The COMSOL confirmation exports do not include the energy-balance expressions.
+  Add the final energy-balance result for the recommended knee point before publication-style release.

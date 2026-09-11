@@ -1,3 +1,7 @@
+> **Historical square-channel validation narrative.** This report concerns the earlier 0.50 × 0.50 mm baseline. Its mesh temperatures and energy residuals differ from the separate [mesh/energy report](../report/validation/mesh_energy_validation.md); the two records have not been reconciled. Original conclusions below are preserved, and neither report establishes mesh or energy verification for the final 0.30 × 0.70 mm geometry.
+>
+> [Project overview](../README.md) · [Study and validation scope](STUDY_AND_VALIDATION.md)
+
 # Model Validation
 
 ## 1. Validation Objective

@@ -1,0 +1,81 @@
+Cold-Plate ML Training Package
+==============================
+
+Source:
+  45 data for training(2).csv
+
+Dataset status:
+  VALID for preliminary flow–TIM machine-learning training.
+
+Grid:
+  3 TIM thicknesses × 3 TIM conductivities × 5 total flow rates = 45 cases.
+  Unique parameter combinations: 45
+  Complete parameter grid: True
+
+Fixed model conditions:
+  Channel width: 0.300 mm
+  Channel height: 0.700 mm
+  Number of channels: 10
+  Heat load: 100.0 W
+  Upstream coolant temperature: 25.0 °C
+  Thermal boundary: Inflow + Outflow
+  Geometry hydraulic diameter: 0.420 mm
+
+Quality checks:
+  Maximum flow-label error: 0.000154 %
+  Maximum mass-balance error: 0.445272 %
+  Maximum pumping-power identity error: 0.000154 %
+  Maximum outlet-area error: 3.226792e-13 %
+  Maximum TIM-resistance theory error: 0.000191 %
+  Physical monotonicity checks: PASS
+  Duplicate export block removed: yes
+  Maximum difference between duplicate source columns: 5.457e-12
+
+Important limitation:
+  The current CSV does not contain the new energy-balance results.
+  All 45 rows pass hydraulic and physics-consistency checks and can be used
+  for preliminary model development. Before the final dataset is frozen for
+  portfolio reporting, append energy-balance error and require <2%.
+
+Recommended split:
+  Training/cross-validation: 36 rows at flow rates 0.10, 0.15, 0.20, 0.30 L/min.
+  Untouched holdout test: 9 rows at 0.25 L/min.
+  Within training, use GroupKFold with cv_group_flow so an entire flow level
+  is omitted from each validation fold.
+
+Do not standardize the complete dataset before splitting.
+Use a scikit-learn Pipeline so scaling is fitted only on training folds.
+
+Recommended primary modeling path:
+  1. Predict system thermal resistance.
+  2. Calculate Tmax = 25 + 100 × Rth.
+  3. Independently model mass-weighted outlet temperature.
+  4. Model pressure drop and pumping power primarily from flow rate.
+  5. Compare polynomial Ridge, Gaussian Process, Gradient Boosting, and
+     Random Forest. Do not use a neural network for only 45 cases.
+
+Current design observations:
+  Cases satisfying Tmax <= 85°C: 19 of 45.
+
+  Best thermal point:
+    Flow = 0.30 L/min
+    TIM thickness = 0.05 mm
+    TIM conductivity = 6.0 W/(m·K)
+    Tmax = 60.618 °C
+    Pumping power = 0.054706 W
+
+  Lowest-pump point satisfying 85°C:
+    Flow = 0.10 L/min
+    TIM thickness = 0.10 mm
+    TIM conductivity = 6.0 W/(m·K)
+    Tmax = 79.990 °C
+    Pumping power = 0.004946 W
+
+Files:
+  coldplate_training_ready_45.csv
+  coldplate_ml_core_45.csv
+  coldplate_train_36.csv
+  coldplate_test_holdout_9.csv
+  coldplate_model_manifest.csv
+  train_coldplate_models.py
+  coldplate_ml_training_package.xlsx
